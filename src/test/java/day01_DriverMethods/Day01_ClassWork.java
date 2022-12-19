@@ -22,8 +22,8 @@ public class Day01_ClassWork {
         driver.get("https://www.amazon.com/");
         //    Sayfa basligini(title) yazdirin
         System.out.println("Sayfa Basligi : "+driver.getTitle());
-        //    Sayfa basliginin “Amazon” icerdigini test edin
 
+        //    Sayfa basliginin “Amazon” icerdigini test edin
         String actualTitle = driver.getTitle();
         if (actualTitle.contains("Amazon")){
             System.out.println("Title testi PASSED");
