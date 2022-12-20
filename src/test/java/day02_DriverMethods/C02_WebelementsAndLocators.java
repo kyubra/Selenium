@@ -42,6 +42,8 @@ public class C02_WebelementsAndLocators {
         System.out.println("Link Sayisi = "+ linklerList.size());
 
 
+
+
 //        for(WebElement w : linklerList){
 //            System.out.println(w.getText());
 //        }
